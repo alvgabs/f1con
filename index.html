@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórmula 1: Ferrari & McLaren</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fórmula 1: Ferrari e McLaren</h1>
+        <p>Explore a história, ídolos, conquistas e carros das duas equipes mais icônicas da Fórmula 1.</p>
+    </header>
+
+    <main>
+        <div class="tabs">
+            <button class="tab-button active" data-tab="ferrari">Ferrari</button>
+            <button class="tab-button" data-tab="mclaren">McLaren</button>
+        </div>
+
+        <section id="ferrari" class="tab-content active">
+            <h2>Scuderia Ferrari</h2>
+            <p>A história da lendária equipe Ferrari na Fórmula 1.</p>
+            <div class="sub-tabs">
+                <button class="sub-tab-button active" data-sub-tab="ferrari-idols">Ídolos</button>
+                <button class="sub-tab-button" data-sub-tab="ferrari-titles">Títulos</button>
+                <button class="sub-tab-button" data-sub-tab="ferrari-cars">Carros</button>
+            </div>
+            <div id="ferrari-idols" class="sub-tab-content active">
+                <h3>Ídolos da Ferrari</h3>
+                <ul>
+                    <li><b>Michael Schumacher:</b> 5 títulos consecutivos (2000-2004).</li>
+                    <li><b>Alberto Ascari:</b> Primeiro campeão mundial (1952, 1953).</li>
+                    <li><b>Niki Lauda:</b> Campeão em 1975 e 1977.</li>
+                    <li><b>Kimi Räikkönen:</b> Último campeão da Ferrari (2007).</li>
+                </ul>
+            </div>
+            <div id="ferrari-titles" class="sub-tab-content">
+                <h3>Principais Títulos</h3>
+                <p>16 campeonatos de construtores e 15 títulos de pilotos, incluindo os icônicos anos de Michael Schumacher.</p>
+            </div>
+            <div id="ferrari-cars" class="sub-tab-content">
+                <h3>Carros Históricos</h3>
+                <ul>
+                    <li>Ferrari 125 F1 (1950): Primeiro carro de Fórmula 1.</li>
+                    <li>Ferrari F2004: O auge de Schumacher.</li>
+                    <li>Ferrari F2007: Último carro campeão com Räikkönen.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="mclaren" class="tab-content">
+            <h2>McLaren</h2>
+            <p>A história da icônica equipe McLaren na Fórmula 1.</p>
+            <div class="sub-tabs">
+                <button class="sub-tab-button active" data-sub-tab="mclaren-idols">Ídolos</button>
+                <button class="sub-tab-button" data-sub-tab="mclaren-titles">Títulos</button>
+                <button class="sub-tab-button" data-sub-tab="mclaren-cars">Carros</button>
+            </div>
+            <div id="mclaren-idols" class="sub-tab-content active">
+                <h3>Ídolos da McLaren</h3>
+                <ul>
+                    <li><b>Ayrton Senna:</b> 3 vezes campeão mundial (1988, 1990, 1991).</li>
+                    <li><b>Alain Prost:</b> 3 títulos pela McLaren.</li>
+                    <li><b>Mika Häkkinen:</b> Campeão em 1998 e 1999.</li>
+                    <li><b>Lewis Hamilton:</b> Primeiro título em 2008.</li>
+                </ul>
+            </div>
+            <div id="mclaren-titles" class="sub-tab-content">
+                <h3>Principais Títulos</h3>
+                <p>8 campeonatos de construtores e 12 títulos de pilotos, com destaque para Ayrton Senna e Lewis Hamilton.</p>
+            </div>
+            <div id="mclaren-cars" class="sub-tab-content">
+                <h3>Carros Históricos</h3>
+                <ul>
+                    <li>McLaren MP4/4: O carro mais dominante de Senna e Prost.</li>
+                    <li>McLaren MP4/13: Campeão com Häkkinen em 1998.</li>
+                    <li>McLaren MP4-23: Primeiro título de Hamilton em 2008.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

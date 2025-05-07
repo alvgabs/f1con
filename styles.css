@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background: #ff2e2e;
+    color: white;
+    padding: 20px 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.tabs, .sub-tabs {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.tab-button, .sub-tab-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background: #ff2e2e;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.tab-button.active, .sub-tab-button.active {
+    background: #d40000;
+}
+
+.tab-button:hover, .sub-tab-button:hover {
+    background: #d40000;
+}
+
+.tab-content, .sub-tab-content {
+    display: none;
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tab-content.active, .sub-tab-content.active {
+    display: block;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
